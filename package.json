@@ -1,0 +1,26 @@
+{
+  "name": "parsel-demo",
+  "version": "1.0.0",
+  "description": "Demostration of Parcel the biuld tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "deywords": [
+    "parcel",
+    "built"
+  ],
+  "author": "michele",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
