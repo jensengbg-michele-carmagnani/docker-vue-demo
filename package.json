@@ -4,7 +4,8 @@
   "description": "Demostration of Parcel the biuld tool",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
+    "start": "cross-env NODE_ENV=dev parcel serve ./src/index.html",
+    "built": "cross-env NODE_ENV=prod parcel serve ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "deywords": [
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",
+    "cross-env": "^7.0.3",
     "parcel-bundler": "^1.12.4",
     "vue-template-compiler": "^2.6.12"
   }
