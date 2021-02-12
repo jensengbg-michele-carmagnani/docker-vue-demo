@@ -1,3 +1,5 @@
 build:
-  docker: 
+  docker:
     web: ./Dockerfile
+run:
+  web: https-server dist/
