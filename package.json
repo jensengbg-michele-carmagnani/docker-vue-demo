@@ -4,8 +4,8 @@
   "description": "Demostration of Parcel the biuld tool",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev parcel serve ./src/index.html",
-    "built": "cross-env NODE_ENV=prod parcel serve ./src/index.html",
+    "dev": "cross-env NODE_ENV=dev parcel serve ./src/index.html",
+    "build": "cross-env NODE_ENV=prod parcel serve ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "deywords": [
