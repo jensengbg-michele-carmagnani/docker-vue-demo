@@ -21,8 +21,9 @@ COPY . .
 
 # build app for production with minification
 # Take the DIST folder (inside the IMAGE)
-##RUN npm run build
 
+
+#http-server använder port 8080
 EXPOSE 8080
 CMD [ "npm","run", "build" ]
 
